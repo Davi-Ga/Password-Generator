@@ -41,13 +41,13 @@ int main(){
     int q,s[15],i;
     
     
-    printf("Qual o tamanho da senha?(6,9,12): ");
+    printf("What is your password size?(6,9,12): ");
     scanf("%d",&q);
  
    switch(q){
 
         case (6):
-            printf("Sua senha: ");
+            printf("Your password: ");
 
                 for(i=0;i<2;i++){
                     s[i]=Letrama();
