@@ -44,6 +44,7 @@ int main(){
     printf("What is your password size?(6,9,12): ");
     scanf("%d",&q);
  
+    system("cls");
    switch(q){
 
         case (6):
